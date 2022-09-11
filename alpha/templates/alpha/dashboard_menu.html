@@ -1,0 +1,17 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block content %}
+<body>
+    <div class="menu_list">
+            <a href="#">All Drivers</a>
+            <a href="#">All Checkpoints</a>
+            <a href="#">All Parks</a>
+            <a href="#">Drivers On journey</a>
+            <a href=" {% url 'userlogout' %} ">Logout</a>
+    
+    </div>
+</body>
+</html>
+
+{% endblock content %}

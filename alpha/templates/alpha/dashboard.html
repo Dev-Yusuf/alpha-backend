@@ -1,0 +1,13 @@
+{% extends 'base2.html' %}
+{% load static %}
+<body>
+    {% block content %}
+    <div class="landing">
+        <h2>Welcome to Alpha</h2>
+        <p>please click on login to proceed to the Dashboard</p>
+        <a href=" {% url 'userlogin' %} " class="btn">Login</a>
+    </div>
+</body>
+</html>
+
+{% endblock content %}

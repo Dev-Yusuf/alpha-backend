@@ -1,0 +1,55 @@
+{% load static %}
+<!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Alpha</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Alpha</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="{% url 'dashboard' %}" class="btn-outline">Login</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>

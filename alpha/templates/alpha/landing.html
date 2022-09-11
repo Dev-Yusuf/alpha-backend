@@ -1,0 +1,456 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Welcome to Alpha</p>
+
+            <h1 class="h1 hero-title">ALPHA TRANSPORT TRACKING
+              SYSTEM</h1>
+
+            <p class="hero-text">
+              We built Alpha to bring safety and hospitality to transportation.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Get started</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src=" {% static 'images/location.jpg' %} " width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src=" {% static 'images/who we are.jpg' %} " width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Who we are.</h2>
+
+            <p class="section-text">
+              At Alpha we are out as a team of gelled trusted tech minds, 
+              experienced forward thinking and battle tested individuals, 
+              avid towards the art of innovation and building solutions to problems, 
+              fueled by the collision of ideas, dedicated towards achieving excellence and 
+              creating opportunity through commitment and a structured purpose at heart.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What We Offer-</p>
+
+          <h2 class="h2 section-title text-center">Our Services</h2>
+
+          <p class="section-text text-center">
+            We offer a wide range of services to our clients.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src=" {% static 'images/tracking_ico.jpg' %} " width="140" height="140" loading="lazy"
+                    alt="Monitoring" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Tracking</h3>  
+
+                  <p class="card-text">
+                    By tracking and monitoring vehicle traffic, road surfaces and weather conditions,
+                    you can now access delays and hazards and respond in real time with revised routing and instructions.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src=" {% static 'images/monitoring_ico.jpg' %} " width="140" height="140" loading="lazy" alt="Monitoring"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Monitoring</h3>
+
+                  <p class="card-text">
+                    At Alpha, you can monitor and optimise fuel consumption, 
+                    minimize the time your cars or vehicles are off the road, improving safety and drivers performance.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src=" {% static 'images/realtime.png' %} " width="140" height="140" loading="lazy"
+                    alt="Real time communication" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Real time communication</h3>
+
+                  <p class="card-text">
+                    Immediate vehicle feedback means you and your driver know when they are speeding,
+                     braking hard or driving in other ways that increase risks and cost.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Why Choose Us-</p>
+
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
+          <p class="section-text text-center">
+            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Security Wise</h3>
+
+                <p class="card-text">
+                  Security wise, dolor sit amet consectetur amet
+                   consectetur adipisicing elit. Culpa, dolorem?
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Location Tracking</h3>
+
+                <p class="card-text">
+                  Real-time location sit, amet consectetur amet
+                   consectetur adipisicing elit. Culpa, dolorem?
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Safty & Secure Trip</h3>
+
+                <p class="card-text">
+                  Provide user safty sit, amet consectetur amet 
+                  consectetur adipisicing elit. Culpa, dolorem?
+                </p>
+
+              </div>
+            </li>
+
+           
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Very Reasonable Price</h3>
+
+                <p class="card-text">
+                  Nullam ullamcorper condimentum urna eu accumsan.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Discover Frequently Asked Questions?</h2>
+
+            <a href="#" class="btn btn-primary">Ask a question</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    01. How to become a member?.
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02. Can can a private owners subscribe to this services?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03. How can i subscribe to this platform?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04. Did the user have to configure anything?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05. What are the obstacles users are facing? What are they trying to do?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  {% endblock content %}
