@@ -1,6 +1,7 @@
 
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,7 +16,7 @@ SECRET_KEY = 'django-insecure-($+#00z!sa(skf%jwzm@ra66qt%pgqxdsg+57clm^v+sf2la9d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'alphatracks.herokuapp.com']
 
 
 # Application definition
@@ -147,3 +148,6 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 AWS_ACCESS_KEY_ID = 'AKIAU2W3AN6J3AGVQGXL'
 AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'alpha-buckets'
+
+if os.getcwd() == '/app':
+    DEBUG = False
